@@ -18,7 +18,7 @@
 // }
 // SplitReverseJoin(word);
 
-// let word = prompt('Inserisci una parola!');
+let word = prompt('Inserisci una parola!');
 
 function pal(pal) {
 
