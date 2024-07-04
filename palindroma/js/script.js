@@ -1,4 +1,4 @@
-let word = prompt('Inserisci una parola o frase e ti dirò se è palindroma!');
+let word = prompt('Inserisci una parola o una frase e ti dirò se è palindroma!');
 
 let wordsNoSpace = word.replace(/ /g, "");
 
