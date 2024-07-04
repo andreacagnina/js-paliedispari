@@ -1,15 +1,19 @@
-let word = prompt('Inserisci una parola');
+let word = prompt('Inserisci una parola o frase e ti dirò se è palindroma!');
+
+let wordsNoSpace = word.replace(/ /g, "");
+
+console.log(wordsNoSpace)
 
 
-function pal(word) {
-    reverse = word.split('').reverse().join('');
-    if (word === reverse) {
+function SplitReverseJoin(palindroma) {
+    let reverse = wordsNoSpace.split('').reverse().join('');
+
+    if (reverse === wordsNoSpace) {
         alert('Palindroma')
     }
     else {
         alert('Non Palindroma')
     }
-
+    console.log(reverse)
 }
-
-pal(word);
+SplitReverseJoin(word);
