@@ -8,8 +8,11 @@ for (let i = 0; i < 1; i++) {
     let lancio = parseInt(prompt('Scrivi un numero da 1 a 5'));
     console.log(lancio);
 
-    while (isNaN(lancio)) {
+    while (lancio > 5) {
         lancio = parseInt(prompt('Il valore inserito non è valido. Inserisci un numero da 1 a 5'));
+
+        // while (isNaN(lancio)) {
+        //     lancio = parseInt(prompt('Il valore inserito non è valido. Inserisci un numero da 1 a 5'));
     }
 
 
