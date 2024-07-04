@@ -1,4 +1,7 @@
-let scelta = prompt('Scegli se il numero sarà pari o dispari');
+let scommessa = prompt('Scegli se il numero sarà pari o dispari');
+
+let scelta = scommessa.toLowerCase;
+
 let lancio = parseInt(prompt('Scrivi un numero da 1 a 5'));
 console.log(lancio)
 
@@ -13,7 +16,14 @@ function lancioPC() {
 let sommaLanci = RandomPc + lancio;
 console.log(sommaLanci)
 
-// function somma() {
-//     return somma = RandomPc + lancio
-// }
+function EorO() {
+    if (sommaLanci % 2 === 0) {
+        console.log('Pari')
+    }
+    else {
+        console.log('Dispari')
+    }
+}
+
+let PoD = EorO();
 
