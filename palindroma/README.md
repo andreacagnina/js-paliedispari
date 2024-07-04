@@ -1,0 +1,7 @@
+-creo una funzione 
+-creo una stringa vuota
+-avvio un ciclo for dall'ultima lettera della parola alla prima
+-dopo aver creato una stringa vuota, concateno i risultati ottenuti dal mio ciclo di decremento nella stringa vuota
+-se la stringa è identica al parametro che ho ottenuto dalla mia funzione, allora stampo che la parola è palindroma
+-altrimenti stampo che non è palindroma
+-richiamo la funzione 
