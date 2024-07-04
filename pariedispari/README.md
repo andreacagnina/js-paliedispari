@@ -1,0 +1,9 @@
+-chiedo tramite prompt all'utente di inserire la parola pari o la parola dispari
+-chiedo all'utente tramite prompt di inserire un numero da 1 a 5
+-avvio una funzione
+-genero un numero random da 1 a 5
+-sommo il numero dell'utente e il numero generato all'interno della funzione
+-avvio una funzione
+-controllo se somma dei due numeri è pari o dispari
+-confronto il risultato con la dichiarazione dell'utente
+-dichiaro in vincitore
