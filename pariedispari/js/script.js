@@ -1,10 +1,9 @@
 let scommessa = prompt('Scegli se il numero sarà pari o dispari');
-console.log(scommessa)
+console.log(scommessa);
 let scelta = scommessa.toLowerCase;
 
 let lancio = parseInt(prompt('Scrivi un numero da 1 a 5'));
-console.log(lancio)
-
+console.log(lancio);
 
 let RandomPc = lancioPC();
 console.log(RandomPc)
@@ -33,5 +32,8 @@ if ((scommessa === 'pari' && sommaLanci % 2 == 0) || (scommessa === 'dispari' &&
 else {
     console.log('Hai perso casa tua')
 }
+
+
+
 
 
